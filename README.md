@@ -9,7 +9,6 @@
             <div class="piece">6</div>    
             <div class="piece">7</div>
             <div class="piece">8</div>    
-
         </div>
     </div>
 
