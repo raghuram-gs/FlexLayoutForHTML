@@ -1,60 +1,62 @@
 .section {
-  display: flex;
-  justify-content: space-between;
-  border: 1px solid orangered;
-  padding: 10px 10px;
-  margin: 5px 5px 30px 5px;
-}
-
-.pieces{
     display: flex;
-    flex-grow: 1;
-    padding: 5px 5px;
-    border: 1px solid green;
-    align-items: center;
-}
-
-.justify-space-evenly{
-    justify-content: space-evenly;
-}
-
-.justify-space-around{
-    justify-content: space-around;
-}
-
-.justify-space-between{
     justify-content: space-between;
-}
-
-
-.piece {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px 5px;;
-    border: 1px dotted blue;
-    width: 50px;
-}
-
-label{
-    border: 1px solid chartreuse;
+    border: 1px solid orangered;
     padding: 10px 10px;
-    margin: 10px;
-    font-size: 14px;
-    width:250px;    
-    text-align: center;
-    vertical-align: middle;
-}
-
-.piece:hover {
-    color: white;
-    font-size: 20px;
-    background-color: indigo;
-    width: 100px;
-}
-
-label:hover {
-    color: white;
-    background-color: blue;
-    height: 100px;
-}
+    margin: 5px 5px 30px 5px;
+  }
+  
+  .pieces{
+      display: flex;
+      flex-grow: 1;
+      padding: 5px 5px;
+      border: 1px solid green;
+      align-items: center;
+  }
+  
+  .justify-space-evenly{
+      justify-content: space-evenly;
+  }
+  
+  .justify-space-around{
+      justify-content: space-around;
+  }
+  
+  .justify-space-between{
+      justify-content: space-between;
+  }
+  
+  
+  .piece {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px 5px;;
+      border: 1px dotted blue;
+      width: 50px;
+  }
+  
+  label{
+      border: 1px solid chartreuse;
+      padding: 10px 10px;
+      margin: 10px;
+      font-size: 14px;
+      width:250px;    
+      text-align: center;
+      vertical-align: middle;
+  }
+  
+  .piece:hover {
+      color: white;
+      font-size: 20px;
+      background-color: indigo;
+      width: 100px;
+  }
+  
+  label:hover {
+      color: white;
+      background-color: blue;
+      height: 100px;
+      border: 5px solid chartreuse;
+  }
+  
