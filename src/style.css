@@ -1,17 +1,50 @@
+html {
+    margin: 0;
+    height: auto;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+
 .section {
     display: flex;
     justify-content: space-between;
-    border: 1px solid orangered;
+    border: 2px solid orangered;
     padding: 10px 10px;
     margin: 5px 5px 30px 5px;
+  }
+
+  .content{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+  }
+  
+  .dropdown{
+      display: flex;
+      justify-content: center;
+      margin: 30px 30px;
+  }
+
+  select{
+    height: 50px;
+    background-color: aqua;
+    font-size: 30px;
+
   }
   
   .pieces{
       display: flex;
       flex-grow: 1;
       padding: 5px 5px;
-      border: 1px solid green;
       align-items: center;
+      background-color: lavender;
+
   }
 
   .row{
@@ -30,7 +63,7 @@
     flex-direction: column-reverse;
   }
 
-  .center{
+  .justify-center{
     justify-content: center;
 }
   
@@ -45,32 +78,38 @@
   .justify-space-between{
       justify-content: space-between;
   }
-  
-  
+    
   .piece {
       display: flex;
       justify-content: center;
       align-items: center;
       padding: 5px 5px;;
-      border: 1px dotted blue;
-      width: 50px;
+      border: 2px dotted blue;
+      width: 75px;
+      background-color: lemonchiffon;
+      margin-right: 3px;
+      margin-bottom: 3px;
+      font-weight: bold;
   }
-  
+
+ 
   label{
       border: 1px solid chartreuse;
       padding: 10px 10px;
       margin: 10px;
-      font-size: 14px;
+      font-size: 18px;
+      font-weight: bold;
       width:250px;    
+      background-color:linen;
+      display: inline-block;
       text-align: center;
-      vertical-align: middle;
   }
   
   .piece:hover {
       color: white;
       font-size: 20px;
       background-color: indigo;
-      width: 100px;
+      width: 120px;
   }
   
   label:hover {
